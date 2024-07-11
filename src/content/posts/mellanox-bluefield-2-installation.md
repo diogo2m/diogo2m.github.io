@@ -9,8 +9,6 @@ tags: ["deploy", "SDN", "PDP", "BlueField"]
 draft: false
 ---
 
-## Introduction
-
 With the growing demand for high-performance networks (HPN), devices like the NVidia Mellanox Bluefield SmartNICs have become increasingly popular and widely used. These devices are crucial in enhancing network efficiency and processing power, enabling faster data transfer and improved overall performance. Given NVidia's extensive documentation on these technologies, I have created this tutorial to assist new users in effectively utilizing SmartNICs. This guide aims to bridge the gap between complex technical specifications and practical application, making it easier for users to deploy and benefit from these advanced networking solutions.
 
 ### Updating and verification

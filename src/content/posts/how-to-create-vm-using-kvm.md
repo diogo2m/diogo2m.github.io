@@ -9,8 +9,6 @@ tags: ["deploy", "KVM"]
 draft: false
 ---
 
-## Introduction
-
 Before the advent of containers, resource encapsulation was primarily achieved using virtualization technology. Consequently, achieving high performance for encapsulated programs posed significant challenges. The development of Kernel-based Virtual Machines (KVM) marked a pivotal advancement, as it introduced the capability to bypass virtualization limitations and minimize performance losses associated with encapsulation. Due to its effectiveness, KVM has become one of the most widely used virtualization solutions, supported by a robust community.
 
 This tutorial has been developed using Ubuntu 22.04.
