@@ -22,7 +22,7 @@ sudo apt-get update && sudo apt-get upgrade
 
 Then, install the KVM packages:
 ```bash
-sudo apt -y install bridge-utils cpu-checker libvirt-clients libvirt-daemon virtinst qemu qemu-kvm
+sudo apt -y install bridge-utils cpu-checker libvirt-clients libvirt-daemon libvirt-daemon-system virtinst qemu qemu-kvm
 ```
 
 ### Checking virtualization availability
@@ -71,6 +71,11 @@ sudo virt-install \
 --location /home/ubuntu-22.04-live-server-amd64.iso,kernel=casper/vmlinuz,initrd=casper/initrd \
 --extra-args 'console=ttyS0,115200n8' 
 ```
+
+> [NOTE:] To other values to `os-variant` install `libosinfo-bin` and execute:
+> ```bash
+> osinfo-query os
+> ```
 
 Now, if all is correct you should be able to see VM here.
 ```bash
