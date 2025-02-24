@@ -56,9 +56,9 @@ After that, you need to reload the partition table by simply rebooting:
 reboot
 ```
 
-Then, finally, resize the filesystem:
+Resize Physical Volume:
 ```bash
-resixe2fs <partition_path>
+pvresize <partition_name>
 ```
 
 ### Resizing Logical Partition
@@ -76,4 +76,9 @@ lvextend --resizefs -l +100%FREE <filesystem_name>
 You can find out the filesystem name by running:
 ```bash
 lsblk
+```
+
+Then, finally, resize the filesystem:
+```bash
+resixe2fs <partition_path>
 ```
